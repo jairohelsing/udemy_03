@@ -2,5 +2,5 @@
 
 // Primera función de prueba custom
 function en_custom() {
-  echo "hola";
+  echo "hola richie";
 }
