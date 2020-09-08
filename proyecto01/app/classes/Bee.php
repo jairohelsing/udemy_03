@@ -9,6 +9,7 @@ class Bee {
 
   // La función principal que se ejecuta al instanciar nuestra clase
   function __construct() {
+    echo "hola";
     $this->init();
   }
 

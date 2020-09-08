@@ -5,8 +5,8 @@
 // Julio 2019
 
 // Requerir el archivo de la clase Bee.php
-require_once 'Persona.php';
+require_once 'app/classes/Bee.php';
 
 // Ejecutar el framework bee
 //Bee::fly();
-echo "hola chaso que ssfue";
+$bee = new Bee;
