@@ -9,8 +9,9 @@ class Bee {
 
   // La función principal que se ejecuta al instanciar nuestra clase
   function __construct() {
-    echo "hola";
     $this->init();
+
+    print_r($_GET);
   }
 
   /**
@@ -23,9 +24,9 @@ class Bee {
     $this->init_session();
     $this->init_load_config();
     $this->init_load_functions();
-    $this->init_autoload();
-    $this->init_csrf();
-    $this->dispatch();
+    //$this->init_autoload();
+    //$this->init_csrf();
+    //$this->dispatch();
   }
 
   /**
