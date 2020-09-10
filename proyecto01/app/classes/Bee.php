@@ -24,7 +24,7 @@ class Bee {
     $this->init_session();
     $this->init_load_config();
     $this->init_load_functions();
-    //$this->init_autoload();
+    $this->init_autoload();
     //$this->init_csrf();
     //$this->dispatch();
   }
