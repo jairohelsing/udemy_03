@@ -10,8 +10,6 @@ class Bee {
   // La función principal que se ejecuta al instanciar nuestra clase
   function __construct() {
     $this->init();
-
-    print_r($_GET);
   }
 
   /**
@@ -193,6 +191,9 @@ class Bee {
     } else {
       call_user_func_array([$controller, $current_method], $params);
     }
+
+    print_r($this->uri);
+    print_r($params);
 
     return; // Línea final todo sucede entre esta línea y el comienzo
   }
