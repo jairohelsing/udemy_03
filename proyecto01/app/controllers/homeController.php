@@ -3,6 +3,7 @@
 class homeController extends Controller {
   function __construct()
   {
+    echo "ejecutando";
   }
 
   function index()

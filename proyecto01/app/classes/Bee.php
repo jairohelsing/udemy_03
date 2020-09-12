@@ -25,7 +25,7 @@ class Bee {
     $this->init_load_config();
     $this->init_load_functions();
     $this->init_autoload();
-    //$this->init_csrf();
+    $this->init_csrf();
     $this->dispatch();
   }
 
@@ -98,6 +98,7 @@ class Bee {
     //require_once CLASSES.'Controller.php';
     //require_once CONTROLLERS.DEFAULT_CONTROLLER.'Controller.php';
     //require_once CONTROLLERS.DEFAULT_ERROR_CONTROLLER.'Controller.php';
+    //require_once CONTROLLERS.'usersController.php';
 
     return;
   }
