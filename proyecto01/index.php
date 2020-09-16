@@ -9,4 +9,4 @@ require_once 'app/classes/Bee.php';
 
 // Ejecutar el framework beess
 Bee::fly();
-//$bee = new Bee;
+
