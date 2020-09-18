@@ -10,14 +10,14 @@ date_default_timezone_set('America/Guayaquil');
 define('LANG'       , 'es');
 
 // Ruta base de nuestro proyecto
-define('BASEPATH'   , IS_LOCAL ? '/cursos/udemy_03/proyecto01/' : '____EL BASEPATH EN PRODUCCIÓN___');
+define('BASEPATH'   , IS_LOCAL ? '/udemy_03/proyecto01/' : '____EL BASEPATH EN PRODUCCIÓN___');
 
 // Sal del sistema o para agregar mas seguridad a la contraseña
 define('AUTH_SALT'  , 'BeeFramework<3');
 
 // Puerto y la URL del sitio
 define('PORT'       , '8848');
-define('URL'        , IS_LOCAL ? 'http://127.0.0.1:'.PORT.'/cursos/udemy_03/proyecto01/' : '___URL EN PRODUCCIÓN___');
+define('URL'        , IS_LOCAL ? 'http://127.0.0.1:'.PORT.'/udemy_03/proyecto01/' : '___URL EN PRODUCCIÓN___');
 
 // Las rutas de directorios y archivos
 define('DS'         , DIRECTORY_SEPARATOR);
