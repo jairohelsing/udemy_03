@@ -26,7 +26,7 @@ class homeController extends Controller {
 
       // SELECT
       $sql = 'SELECT * FROM tests WHERE id=:id AND name=:name';
-      $res = Db::query($sql, ['id' => 1, 'name' => 'John Doe']);
+      $res = Db::query($sql, ['id' => 1, 'name' => 'Jairo Pasuy']);
       print_r($res);
 
       // INSERT
@@ -47,7 +47,7 @@ class homeController extends Controller {
         'name' => 'Ricardo Algo',
         'id'   => 3
       ];
-      //print_r(Db::query($sql, $registro_actualizado));
+      print_r(Db::query($sql, $registro_actualizado));
 
       // DELETE
       $sql = 'DELETE FROM tests WHERE id=:id LIMIT 1';
