@@ -13,7 +13,7 @@ class homeController extends Controller {
       'title' => 'Home',
       'bg'    => 'dark'
     ];
-
+    
     View::render('bee', $data);
   }
 
@@ -47,7 +47,7 @@ class homeController extends Controller {
         'name' => 'Ricardo Algo',
         'id'   => 3
       ];
-      print_r(Db::query($sql, $registro_actualizado));
+      //print_r(Db::query($sql, $registro_actualizado));
 
       // DELETE
       $sql = 'DELETE FROM tests WHERE id=:id LIMIT 1';
