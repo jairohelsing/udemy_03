@@ -8,6 +8,7 @@ class homeController extends Controller {
 
   function index()
   {
+
     $data =
     [
       'title' => 'Home',
